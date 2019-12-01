@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const Task = require("../models/Task");
+const Task = require("../models/task");
 var timeout = require("express-timeout-handler");
 
 // get a list of tasks from the db
